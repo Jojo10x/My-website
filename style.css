@@ -52,9 +52,25 @@ p {
 .section-title span {
     color: crimson;
 }
+    .effect-type {
+        overflow: hidden;
+        white-space: nowrap;
+        margin: 0 auto;
+        letter-spacing: .15em;
+        animation: typing 4s steps(20) forwards infinite;
+    }
 
-.cta {
-    display: inline-block;
+    @keyframes typing {
+        from {
+            width: 0;
+        }
+
+        to {
+            width: 100%;
+        }
+    }
+
+    .cta {  display: inline-block;
     padding: 10px 30px;
     color: rgb(14, 133, 36);
     background-color: transparent;
