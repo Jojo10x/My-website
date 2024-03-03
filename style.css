@@ -322,7 +322,6 @@ z-index: 1;
 #services .service-bottom {
     display: flex;
     align-items: center;
-    justify-content: center;
     flex-wrap: wrap;
     margin-top: 50px;
 }
@@ -529,7 +528,6 @@ z-index: 1;
     /* max-width: 400px; */
     width: 100%;
 }
-
 #contact .contact-item {
     width: 80%;
     padding: 20px;
